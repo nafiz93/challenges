@@ -53,14 +53,18 @@
     text-align: center;
 }
 
-.banner-description {
+/* shared style */
+.description {
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 26px;
     letter-spacing: 0%;
     text-align: center;
+    opacity: 0.7;
+
+
 }
 
 .contact-button {
@@ -77,4 +81,30 @@
     text-align: center;
 
     background: rgb(13, 19, 33);
+}
+
+.main {
+    width: 1140px;
+    margin-left: 185px;
+
+
+}
+
+.web-development {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+
+}
+
+.web-title {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
 }
