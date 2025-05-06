@@ -78,6 +78,42 @@
 
 }
 
+.shared-title {
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+
+}
+
+.button-primary {
+    width: 171px;
+    height: 47px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    padding: 12px 20px 12px 20px;
+}
+
+.shared-container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 30px;
+
+
+}
+
+/* ................. */
+
 .contact-button {
     width: 240px;
     height: 60px;
@@ -129,36 +165,10 @@
 
 }
 
-.coding-container {
+
+
+.web-system {
     display: flex;
-    flex-direction: column;
-    align-items: start;
-    gap: 20px;
-
-
-}
-
-.coding-title {
-    color: rgba(13, 19, 33, 0.7);
-    font-family: Azeret Mono;
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 36px;
-    letter-spacing: 0%;
-
-}
-
-.coding-button {
-    width: 171px;
-    height: 47px;
-    color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
-    font-size: 15px;
-    font-weight: 600;
-    line-height: 23px;
-    letter-spacing: 0%;
-    text-align: center;
-    border: 1px solid rgb(13, 19, 33);
-    opacity: 0.7;
-    padding: 12px 20px 12px 20px;
+    padding: 20px;
+    flex-direction: row-reverse;
 }
