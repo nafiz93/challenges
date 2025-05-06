@@ -7,6 +7,8 @@
 }
 
 
+
+
 .nav-container {
     display: flex;
     justify-content: space-between;
@@ -35,7 +37,7 @@
 }
 
 .banner {
-    width: 1520px;
+    width: 1440px;
     height: 652px;
     background-image: url(/challenges/assets/Hero-bg.png);
     background-size: cover;
@@ -220,6 +222,7 @@
 .card-container {
     display: flex;
     gap: 32px;
+    margin-bottom: 50px;
 }
 
 .card-1 {
@@ -253,4 +256,60 @@
     flex-direction: column;
     align-items: start;
     gap: 8px;
+}
+
+.support {
+    background-image: url(/challenges/assets/handshake.jpg);
+    width: 1140px;
+    height: 313px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 64px 48px 64px 48px;
+}
+
+.support p {
+    color: white;
+
+}
+
+.search-box {
+    width: 548px;
+    height: 57px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+}
+
+.submit-button {
+    width: 120px;
+    height: 57px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    border-style: none;
+    font-weight: 600;
+}
+
+.footer-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 150px 32px 150px;
+    border-radius: 16px;
+
+    background: rgba(13, 19, 33, 0.03);
+}
+
+.footer-title {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+footer div img {
+    margin-right: 24px;
 }
